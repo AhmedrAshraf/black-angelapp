@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "102407084060",
+    "firebase_url": "https://blackangel-f7c41.firebaseio.com",
+    "project_id": "blackangel-f7c41",
+    "storage_bucket": "blackangel-f7c41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102407084060:android:b659ac3b030ce7794027d9",
+        "android_client_info": {
+          "package_name": "com.cornellius.blackangel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102407084060-8ifv5sidr8uipu6t4aigdrub31a5icuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cornellius.blackangel",
+            "certificate_hash": "0a9ab89e180a7fa09d7d04a65cedc50156224522"
+          }
+        },
+        {
+          "client_id": "102407084060-t97bemqarni4sfp5n4uu2n65385tdpr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fdmPmH7T_a9WyD323BUBH5Qy_nN9nKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102407084060-t97bemqarni4sfp5n4uu2n65385tdpr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

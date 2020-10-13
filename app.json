@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Black Angel",
+    "slug": "blackAngel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "icon": "./src/assets/images/angel.png",
+    "splash": {
+      "image": "./src/assets/images/angel-splash.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.rumble.blackangel",
+      "versionCode": 11,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBzgOgR_5oscEehqsjRyM5W6ZRSvxoGmTY"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.rumble.blackangel",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBzgOgR_5oscEehqsjRyM5W6ZRSvxoGmTY"
+      },
+      "buildNumber": "1.1.1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Black angel uses your location to help you out.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Black angel uses your location to help you out."
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    }
+  }
+}
